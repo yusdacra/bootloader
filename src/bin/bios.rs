@@ -197,7 +197,7 @@ fn init_logger(
         pixel_format,
     };
 
-    bootloader::binary::init_logger(slice, info);
+    // bootloader::binary::init_logger(slice, info);
 
     info
 }
